@@ -15,3 +15,9 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 
 vim.g.mapleader = " "
+
+-- Turn off paste mode when leaving insert
+vim.api.nvim_create_autocmd("InsertLeave", {
+    pattern = '*',
+    command = "set nopaste"
+})

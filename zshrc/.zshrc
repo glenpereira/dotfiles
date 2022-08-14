@@ -121,3 +121,9 @@ export ANDROID_HOME=/Users/$USER/Library/Android/sdk
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 export XDG_CONFIG_HOME=/Users/$USER/.config
+
+# adding terminal prompt rhs timestamp
+RPROMPT='[%D{%L:%M:%S}] '$RPROMPT
+
+# aliasing vim to nvim
+alias vim="nvim"

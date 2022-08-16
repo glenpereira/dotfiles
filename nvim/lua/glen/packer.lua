@@ -25,4 +25,9 @@ return require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim' -- common utilities
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-telescope/telescope-file-browser.nvim'
+    use 'preservim/nerdtree' -- nerdtree
+    use 'ryanoasis/vim-devicons' --file icons for nerdtree
+    use 'Xuyuanp/nerdtree-git-plugin' -- git status for nerdtree
+    use 'kdheepak/lazygit.nvim' --lazygit
+    use 'andweeb/presence.nvim' --discord presence 
 end)

@@ -34,3 +34,9 @@ nnoremap("<leader>sl", "<C-w>l")
 
 --paste to new line
 nnoremap("<leader>p", "o<esc>p")
+
+--open nerdtree
+nnoremap("<leader>n", "<cmd>NERDTree<CR>")
+
+--open lazygit
+nnoremap("<leader>g", "<cmd>LazyGit<CR>")

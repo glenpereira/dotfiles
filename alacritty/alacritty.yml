@@ -5,12 +5,11 @@ window:
   class:
     instance: Alacritty
     general: Alacritty
+  opacity: 0.9
 
 scrolling:
   history: 10000
   multiplier: 1
-
-window.opacity: 1
 
 font:
   size: 15

@@ -30,4 +30,12 @@ return require('packer').startup(function(use)
     use 'Xuyuanp/nerdtree-git-plugin' -- git status for nerdtree
     use 'kdheepak/lazygit.nvim' --lazygit
     use 'andweeb/presence.nvim' --discord presence 
+    use 'lukas-reineke/indent-blankline.nvim' -- indent blankline
+    use 'p00f/nvim-ts-rainbow' -- bracket color pairs
+    use 'akinsho/bufferline.nvim' -- vscode style tabs
+    use 'norcalli/nvim-colorizer.lua' -- color highlighter
+    use 'glepnir/lspsaga.nvim' --lsp UIs
+    use 'jose-elias-alvarez/null-ls.nvim' -- use neovim as a language server to inject lsp diagnostics, code actions, and more via lua.
+    use 'MunifTanjim/prettier.nvim' -- prettier plugin for neovim's built in lsp client
+    use 'lewis6991/gitsigns.nvim'
 end)
